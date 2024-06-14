@@ -1,3 +1,6 @@
+*{
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   padding: 0;
@@ -12,18 +15,32 @@ body {
   height: 688px;
 }
 .gereral-mode {
+  flex-grow: 1;
+  flex-shrink: 0;
+  margin: 0;
   padding: 16px;
   border-radius: 16px;
   background-color: #3d3d3d;
   box-shadow: 0px 0px 2px 0px #0000001f, 0px 4px 8px 0px #00000024;
 }
+.left-side{
+  display: flex;
+  flex-direction: column;
+  width: 416px;
+  height: 670px;
+  gap: 16px;
+}
 .weather {
   width: 416px;
   height: 178px;
-  margin: 0 16px 16px 0;
+  /* margin: 0 16px 16px 0; */
 }
 .calendar {
   width: 416px;
   height: 194px;
-  margin: 0 16px 16px 0;
+  /* margin: 0 16px 16px 0; */
+}
+.email {
+  width: 416px;
+  height: 266px;
 }
