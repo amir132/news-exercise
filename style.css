@@ -9,12 +9,13 @@ body {
 }
 .container {
   display: flex;
+  justify-content: space-between;
   margin: 93px auto 201px;
   background-color: lightcoral;
   width: 1280px;
   height: 688px;
 }
-.gereral-mode {
+.general-mode {
   flex-grow: 1;
   flex-shrink: 0;
   margin: 0;
@@ -33,14 +34,37 @@ body {
 .weather {
   width: 416px;
   height: 178px;
-  /* margin: 0 16px 16px 0; */
 }
 .calendar {
   width: 416px;
   height: 194px;
-  /* margin: 0 16px 16px 0; */
 }
 .email {
   width: 416px;
   height: 266px;
+}
+.right-side{
+  display: flex;
+  flex-direction: column;
+  width:848px;
+  height:688px;
+  gap: 16px;
+}
+.billboard{
+  width:848px;
+  height:408px;
+}
+.down-in-left-side{
+  display: flex;
+  gap: 16px;
+  width:848px;
+  height: 264px;
+}
+.quote{
+  width:489px;
+  height: 189px;
+}
+.feeling{
+  width:343px;
+  height: 264px;
 }
