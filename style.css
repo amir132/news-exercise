@@ -95,6 +95,16 @@ h1 {
   font-weight: 500;
   line-height: 36px;
 }
+h2 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+}
+h3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+}
 .temp {
   font-size: 28px;
   font-weight: 500;
@@ -120,4 +130,21 @@ h1 {
 .weather-left-side {
   width: 130px;
   padding: 0;
+}
+.today {
+  margin-bottom: 16px;
+}
+.daily {
+  margin: 0 0 6px 0;
+  padding: 0;
+  width: 384px;
+  height: 46px;
+  padding: 4px 0px 4px 12px;
+  border-left: 2px solid #ffc453;
+}
+.coding-class {
+  width: 384px;
+  height: 46px;
+  padding: 4px 0px 4px 12px;
+  border-left: 2px solid #29E489;
 }
