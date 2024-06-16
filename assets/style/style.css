@@ -218,3 +218,43 @@ h3 {
   border: 1px solid #000000;
   box-shadow: 0px 0px 2px 0px #0000001f, 0px 4px 8px 0px #00000024;
 }
+
+.menu {
+  display: flex;
+  margin: 16px;
+}
+.gaming {
+  background-color: #292929;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #ffffff;
+  width: 92px;
+  height: 40px;
+  padding: 8px 16px 8px 16px;
+  border-radius: ;
+  box-shadow: 0px 0px 2px 0px #0000001f, 0px 4px 8px 0px #00000024;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.technology {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  width: 123px;
+  height: 40px;
+  padding: 8px 16px 8px 16px;
+  color: #242424;
+  margin-right: 10px;
+}
+
+.crypto {
+  width: 86px;
+  height: 40px;
+  padding: 8px 16px 8px 16px;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #242424;
+}
