@@ -260,29 +260,37 @@ h3 {
 }
 
 .banner {
-  position: relative;
-  display: inline-block;
+  width: 848px;
+  height: 320px;
+  border-radius: 16px;
 }
 
-.fix-banner{
+.fix-banner {
   height: 312px;
   overflow: hidden;
+  border-radius: 8px;
 }
 
 .banner img {
+  margin: 0;
   display: block;
   width: 816px;
+  border-radius: 8px; /*bottom-right didn't get radius*/
 }
 
 .overlay {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  background: rgba(0, 0, 0, 0.7);
-  color: white;
-  text-align: center;
+  position: relative;
+  bottom: 100px;
+  left: 16px;
   padding: 20px;
-  box-sizing: border-box;
-  /* backdrop-filter: blur(10px); */
-  
+  width: 784px;
+  height: 84px;
+  padding: 16px;
+  border-radius: 8px;
+  background-color: #00000063;
+  backdrop-filter: blur(10px);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #fff;
 }
