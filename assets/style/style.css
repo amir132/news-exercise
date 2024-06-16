@@ -101,6 +101,9 @@ h2 {
   line-height: 32px;
 }
 h3 {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
@@ -147,4 +150,10 @@ h3 {
   height: 46px;
   padding: 4px 0px 4px 12px;
   border-left: 2px solid #29E489;
+}
+.stam{
+  width: 384px;
+height: 55px;
+padding: 0px 0px 7px 0px;
+border: 1px solid #29292980;
 }
