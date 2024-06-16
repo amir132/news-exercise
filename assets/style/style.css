@@ -149,11 +149,72 @@ h3 {
   width: 384px;
   height: 46px;
   padding: 4px 0px 4px 12px;
-  border-left: 2px solid #29E489;
+  border-left: 2px solid #29e489;
 }
-.stam{
+.steam {
+  display: flex;
+  align-items: center;
   width: 384px;
-height: 55px;
-padding: 0px 0px 7px 0px;
-border: 1px solid #29292980;
+  height: 55px;
+  padding: 0px 0px 7px 0px;
+  margin-top: 16px;
+}
+.steam-news {
+  width: 336px;
+  height: 36.45px;
+  padding: 0px 0px 0px 12px;
+}
+.steam-news h3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.steam img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  border: 1px solid #000000;
+  box-shadow: 0px 0px 2px 0px #0000001f, 0px 4px 8px 0px #00000024;
+}
+
+.github {
+  display: flex;
+  align-items: center;
+  width: 384px;
+  height: 55px;
+  padding: 0px 0px 7px 0px;
+  margin: 6px 0;
+}
+.github-news {
+  width: 336px;
+  height: 36.45px;
+  padding: 0px 0px 0px 12px;
+}
+
+.github img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  border: 1px solid #000000;
+  box-shadow: 0px 0px 2px 0px #0000001f, 0px 4px 8px 0px #00000024;
+}
+
+.h-and-m {
+  display: flex;
+  align-items: center;
+  width: 384px;
+  height: 55px;
+  padding: 0px 0px 7px 0px;
+}
+.h-and-m-news {
+  width: 336px;
+  height: 36.45px;
+  padding: 0px 0px 0px 12px;
+}
+
+.h-and-m img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50px;
+  border: 1px solid #000000;
+  box-shadow: 0px 0px 2px 0px #0000001f, 0px 4px 8px 0px #00000024;
 }
